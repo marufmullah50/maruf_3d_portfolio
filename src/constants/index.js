@@ -24,6 +24,7 @@ import {
   photo,
   breast,
   fish,
+  rcCar,
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +40,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "linkedin",
+    title: "LinkedIn",
+  }
 ];
 
 const services = [
@@ -214,6 +219,27 @@ const projects = [
     ],
     image: tailstock,
     source_code_link: "https://drive.google.com/file/d/190ZUzgvv-b2GqPbY-N0C59pZY0YNBJ5Q/view?usp=drivesdk",
+  },
+  {
+    name: "Smart Bluetooth-Controlled Vacuum Cleaner",
+    description:
+      "Smart Bluetooth-Controlled Vacuum Cleaner: A Bluetooth-controlled robotic car with an integrated CPU fan-based vacuum cleaner, designed for remote cleaning using a smartphone.",
+    tags: [
+      {
+        name: "SolidWorks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CAD CAM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "lathe machine",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rcCar,
+    source_code_link: "https://drive.google.com/file/d/194sMp3fy9TrpGQ0tPs059Hf_H-tzQApc/view?usp=drivesdk",
   },
   {
     name: "Fish Species Detection and Classification",

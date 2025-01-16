@@ -51,8 +51,10 @@ import photo from './photo.png';
 import wood from './wood.jpg';
 import tailstock from './tailstock.jpg';
 import weather from './weather.png';
+import rcCar from './rcCar.jpg';
 
 export {
+  rcCar,
   matlab,
   python,
   tensorflow,
